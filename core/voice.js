@@ -4,7 +4,7 @@ const {Models} = require('snowboy');
 const speech = require('@google-cloud/speech')(config.google);
 const sound = require('./sound.js');
 
-const hotwords = [{ file: config.snowboy.resource, hotword: config.snowboy.hotword }];
+const hotwords = [{ file: config.snowboy.resource, sensitivity: config.snowboy.sensitivity, hotword: config.snowboy.hotword }];
 const language = config.language;
 const sonus = Sonus.init({ hotwords, language }, speech);
 
