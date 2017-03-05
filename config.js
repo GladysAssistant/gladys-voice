@@ -2,7 +2,8 @@
 module.exports = {
     snowboy: {
         hotword: process.env.RECOGNITION_HOTWORD || 'gladys',
-        resource: process.env.RECOGNITION_RESOURCE || './data/gladys.pmdl'
+        resource: process.env.RECOGNITION_RESOURCE || './data/gladys.pmdl',
+        sensitivity: process.env.RECOGNITION_SENSITIVITY || '0.35'
     },
     google: {
         projectId: process.env.GOOGLE_PROJECT_ID || 'your-project',
