@@ -1,6 +1,6 @@
 {
   "name": "gladys-voice",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "To be able to speak to Gladys !",
   "main": "app.js",
   "scripts": {
@@ -20,8 +20,8 @@
   "author": "Pierre-Gilles Leymarie",
   "license": "CC-BY-NC-SA-3.0",
   "dependencies": {
-    "google-cloud": "^0.41.2",
+    "google-cloud": "^0.55.0",
     "request": "^2.75.0",
-    "sonus": "^0.1.0"
+    "sonus": "^0.1.8"
   }
 }

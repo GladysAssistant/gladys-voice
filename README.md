@@ -28,14 +28,22 @@ Then, install this module on your machine (Raspberry Pi, any linux or Mac) :
 **Note :** You need Node.js >= v6
 
 ```
-npm install gladys-voice
+git clone https://github.com/GladysProject/gladys-voice
 ```
 
 Then go to the folder where it has been installed : 
 
 ```
-cd node_modules/gladys-voice
+cd gladys-voice
 ```
+
+Install the dependency with NPM or Yarn
+
+```
+yarn install
+```
+
+( or `npm install` if you don't have yarn )
 
 ### Creating a Google Project 
 
