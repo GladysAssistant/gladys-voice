@@ -80,3 +80,8 @@ Then, start the module :
 pm2 start app.js --name gladys-voice
 ```
 
+To start the module when your system boot, you can save the current process list by doing:
+
+```
+pm2 save
+```
